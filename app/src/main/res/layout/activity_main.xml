@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.renxl.animationdemo.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tv_rotation"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="rotation" />
+
+    <TextView
+        android:id="@+id/tv_scale"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="scale" />
+
+    <TextView
+        android:id="@+id/tv_alpha"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="alpha" />
+
+    <TextView
+        android:id="@+id/tv_translate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="translate" />
+
+
+</LinearLayout>
